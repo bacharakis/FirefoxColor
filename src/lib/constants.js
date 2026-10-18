@@ -4,6 +4,9 @@ export const DOWNLOAD_FIREFOX_URL = `https://www.mozilla.org/firefox/new/?utm_ca
   process.env.DOWNLOAD_FIREFOX_UTM_SOURCE
 }`;
 
+export const THEME_DOCS_URL =
+  "https://extensionworkshop.com/documentation/themes/";
+
 export const CUSTOM_BACKGROUND_MAXIMUM_LENGTH = 3;
 
 export const CUSTOM_BACKGROUND_MAXIMUM_SIZE = 1000000;

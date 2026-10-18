@@ -1,0 +1,27 @@
+@import "../../common.scss";
+
+.preview-notice {
+  align-self: start;
+  background-color: var(--blue-50-a30);
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 10px 16px;
+  position: relative;
+  width: calc(100% - 40px);
+  z-index: 1;
+}
+
+.preview-notice__text {
+  color: var(--grey-90);
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.preview-notice__link {
+  color: var(--blue-70);
+  font-weight: 600;
+  text-decoration: underline;
+}
